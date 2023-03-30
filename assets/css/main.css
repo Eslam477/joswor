@@ -1,0 +1,319 @@
+html {
+  height: 0px;
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+.main-nav {
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.4901960784);
+  height: 95px;
+}
+
+.user_auth_pages_link {
+  padding-right: 20px;
+}
+
+.J_footer {
+  color: #b6b6b6;
+  background: #1b212e;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 80px;
+}
+.J_footer a {
+  color: #b6b6b6;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.J_footer a:hover {
+  color: #fadf7b;
+}
+
+.auther {
+  background: #1b212e;
+  color: #b6b6b6;
+}
+.auther .row {
+  border-top: 1px solid rgb(230, 230, 230);
+  padding: 10px;
+}
+.auther a {
+  font-size: 20px;
+  margin-inline: 5px;
+  color: #b6b6b6;
+}
+.auther a:hover {
+  transition: 0.3s;
+  color: #fadf7b;
+}
+.auther p {
+  margin: 0;
+}
+.auther i {
+  position: relative;
+}
+.auther i::before {
+  transform: translateY(-50%);
+}
+
+.welcome-section {
+  color: white;
+  background-image: url("../img/home-welcom-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: calc(100vh - 90px);
+  padding-top: 30vh;
+}
+.welcome-section h1 {
+  margin-bottom: 30px;
+}
+.welcome-section a {
+  background: #536841 !important;
+  border: none;
+}
+.welcome-section a:hover {
+  background: #495b39 !important;
+}
+
+.about_us_section {
+  padding: 5rem;
+}
+.about_us_section span.img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services_section span.img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services_section .content {
+  direction: rtl;
+}
+.services_section .content li {
+  padding: 10px;
+}
+.services_section .content li button {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding: 0 10px;
+}
+.services_section .content li button::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: -10px;
+  height: 3px;
+  width: 0%;
+  background: #536841;
+  transition: 0.3s;
+}
+.services_section .content li button:hover {
+  color: #536841;
+}
+.services_section .content li button:hover::after {
+  width: 100%;
+}
+
+.services_cards {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.services_cards {
+  text-align: center;
+}
+.services_cards .row .card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+.services_cards .row .card i {
+  font-size: 90px;
+  display: block;
+  color: #536841;
+}
+.services_cards .row .card i::before {
+  position: relative;
+  top: -25px;
+}
+
+.latest_articles .carousel-item div {
+  display: block;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.latest_articles .carousel-item .post_data {
+  position: absolute;
+  left: 15%;
+  bottom: 1.25rem;
+  right: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-top: 200px;
+}
+.latest_articles .carousel-item .post_data h3, .latest_articles .carousel-item .post_data p:last-child {
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.9);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+}
+
+.page-aboutUs-thumbnail-section .x {
+  height: 75vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page-aboutUs-thumbnail-section .x div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+.login_section {
+  position: relative;
+  height: 100vh;
+}
+.login_section form {
+  width: 30vw;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+.login_section form input {
+  border: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+.form-reg-section {
+  border-radius: 40px;
+  background: #536841;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.the_post {
+  margin: 10px;
+  width: calc(33.33333333% - 20px);
+  background: #fff;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 7px 7px 8px 0px #888888;
+}
+.the_post .post_thumpnail {
+  height: 168px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.the_post .details {
+  padding: 10px;
+}
+.the_post .details h3 {
+  font-weight: bold;
+}
+.the_post .details p {
+  height: 65px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.the_post .details a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.the_post .details a i {
+  position: relative;
+  top: -4px;
+}
+.the_post .details a:hover i {
+  left: 4px;
+}
+
+.single_post {
+  text-align: center;
+}
+.single_post .post_thumpnail {
+  width: 100%;
+  height: 75vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.single_post h1 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+.single_post p {
+  text-align: left;
+}
+
+.studint-model {
+  margin: 50px;
+  min-height: 75vh;
+  background: #fff;
+  padding: 50px 0;
+  border-radius: 20px;
+  box-shadow: 7px 7px 8px 0px #888888;
+}
+.studint-model .col-3 {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+.studint-model .col-3 .user-img {
+  display: inline-block;
+  height: 200px;
+  width: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.studint-model #form-save-button {
+  display: none;
+}
+.studint-model i::before {
+  position: relative;
+  top: -6px;
+  right: -4px;
+}
+
+.y34no {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

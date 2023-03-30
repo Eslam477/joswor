@@ -1,0 +1,17 @@
+html{
+    height: 0px;
+}
+body{
+    background-color: rgb(236, 236, 236)
+}
+
+@import 'vars';
+@import 'index';
+@import 'menus';
+@import 'footer';
+@import 'home';
+@import 'page';
+@import 'auth';
+@import 'form-reg-section';
+@import 'blog';
+@import 'dashbords';

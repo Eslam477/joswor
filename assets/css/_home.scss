@@ -1,0 +1,130 @@
+.welcome-section{
+    color: white;
+    background-image: url('../img/home-welcom-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:calc(100vh - 90px);
+    padding-top: 30vh;
+h1{
+    margin-bottom: 30px;
+}
+a{
+    background: $c1 !important;
+    border: none;
+    &:hover{
+    background: #495b39!important;
+    }
+}
+}
+
+
+
+.about_us_section{
+    padding: 5rem;
+    span.img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+
+.services_section{
+    span.img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        .content{
+            direction: rtl;
+            li{
+                padding: 10px;
+                button{
+                    text-decoration: none;
+                    color: black;
+                    position: relative;
+                    padding: 0 10px;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        right: 0px;
+                        bottom: -10px;
+                        height: 3px;
+                        width: 0%;
+                        background: $c1;
+                        transition: .3s;
+                    }
+                    &:hover{
+                        color: $c1;
+                    }
+                    &:hover::after{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+}
+.services_cards{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.services_cards{
+    text-align: center;
+.row{
+    .card{
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 40px;
+        padding-bottom: 10px;
+        i{
+            font-size: 90px;
+            display: block;
+            color: $c1;
+            &::before{
+                position: relative;
+                top: -25px;
+            }
+        }
+        margin: auto;
+    }
+}
+}
+
+.latest_articles{
+    .carousel-item{
+        div{
+            display: block;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .post_data{
+            position: absolute;
+            left: 15%;
+            bottom: 1.25rem;
+            right: 15%;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            padding-top: 200px;
+
+            h3 ,p:last-child{
+                border-radius: 20px;
+                display: inline-block;
+                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.9);;
+                background: rgba(255, 255, 255, 0.9);
+                padding: 20px;
+            }
+        }
+    }
+}

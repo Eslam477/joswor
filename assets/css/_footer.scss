@@ -1,0 +1,42 @@
+$f_c1:#1b212e;
+.J_footer{
+    color: #b6b6b6;
+    background: $f_c1;
+    height: max-content;
+    padding: 80px;
+    a{
+        color: #b6b6b6;
+        text-decoration: none;
+        transition: .3s;
+        &:hover{
+            color: $c2;
+        }
+    }
+}
+.auther{
+    background:$f_c1;
+    color: #b6b6b6;
+    .row{
+        border-top: 1px solid rgb(230, 230, 230);
+        padding: 10px;
+    }
+    a{
+        font-size: 20px;
+        margin-inline: 5px;
+    color: #b6b6b6;
+        &:hover{
+            transition: .3s;
+            color: $c2;
+        }
+    }
+    p{
+        margin: 0;
+    }
+    i{
+        position: relative;
+        &::before{
+        transform: translateY(-50%);
+        }
+    }
+
+}

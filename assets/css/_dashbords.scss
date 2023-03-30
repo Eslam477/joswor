@@ -1,0 +1,36 @@
+.studint-model{
+    margin: 50px;
+    min-height: 75vh;
+    background: #fff;
+    padding: 50px 0;
+    border-radius: 20px;
+    box-shadow:7px 7px 8px 0px #888888; ;
+    .col-3{
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        .user-img{
+            display: inline-block;
+            height: 200px;
+            width: 75%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    #form-save-button{
+        display: none;
+    }
+    i{
+        &::before{
+            position: relative;
+            top: -6px;
+            right: -4px;
+        }
+    }
+}
+
+.y34no{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
