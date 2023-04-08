@@ -1,4 +1,4 @@
-## wordpress theme for testing
+## Wordpress theme for testing
 
 *_authentication support
 *_api
